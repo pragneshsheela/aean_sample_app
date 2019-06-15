@@ -1,0 +1,29 @@
+﻿<!-- nav -->
+<nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="userDetails">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/">Home</a>
+        <a class="nav-item nav-link" (click)="logout()">Logout</a>
+    </div>
+</nav>
+
+<!-- main app container -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3">
+
+            <h1>Hi {{userDetails && userDetails.fullName ? userDetails.fullName : ""}}!</h1>
+            <p>You're logged in with Angular 7!!</p>
+            <h3>All registered users:</h3>
+            <ul>
+                <li *ngFor="let user of users">
+                    {{user.email}} ({{user.fullName}}
+                    - <a (click)="deleteUser(user._key)" class="text-danger">Delete</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+</div>
+</div>
