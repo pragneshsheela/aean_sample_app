@@ -16,15 +16,15 @@ AEAN is a set of Open Source components that together, provide an end-to-end fra
 1. git - Installation guide .
 2. node.js - Download page .
 3. npm - comes with node or download yarn - Download page .
-4. mongodb - Download page .
+4. Arrongodb - Download page .
 
+
+# Download ArangoDB for Windows
+1. https://www.arangodb.com/download-major/windows/ go through this link and download 
+      ### NSIS packages : Server 3.4.6-1
 
 # Installation
 1. git clone https://github.com/pragneshsheela/aean_sample_app.git
 2. cd aean_sample_app
 3. npm install
 4. npm run start
-
-# Download ArangoDB for Windows
-1. https://www.arangodb.com/download-major/windows/ go through this link and download 
-      ### NSIS packages : Server 3.4.6-1
