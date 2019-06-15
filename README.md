@@ -1,4 +1,4 @@
-# Welcome to the aean stack
+# Welcome to the AEAN Stack
 
 The aean stack is intended to provide a simple and fun starting point for cloud native fullstack javascript applications.
 AEAN is a set of Open Source components that together, provide an end-to-end framework for building dynamic web applications; starting from the top (code running in the browser) to the bottom (database). The stack is made up of:
